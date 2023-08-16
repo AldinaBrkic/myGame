@@ -1,0 +1,156 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+.ball {
+    width: 34px;
+    height: 40px;
+    background-image: url("ball.png");
+    position: absolute;
+    top: 351px;
+    left: 331px;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    border-radius: 19px;
+}
+
+.body
+{
+	background-image: url("a-green-nature-background-vector.jpg");
+	background-repeat: no-repeat;
+}
+.myArea
+{
+	width: 100%;
+	height: 552px;
+	position: relative;
+}
+
+.click
+{
+	width: 177px;
+	height: 100px;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 45%;
+}
+
+.container{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+.wall
+{
+	position: absolute;
+	width: 10px;
+	height: 147px;
+	background-color: silver;
+	margin-left: 0%;	
+}
+
+.wallA
+{
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	background-color: white;
+	margin-left: 0%;	
+}
+
+.wallB
+{
+	position: absolute;
+	width: 10px;
+	height: 156px;
+	background-color: yellow;
+	margin-left: 0%;
+}
+
+.wallC
+{
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	background-color: red;
+	margin-left: 0%;
+}
+
+
+.wallD
+{
+	position: absolute;
+	width: 10px;
+	height: 210px;
+	background-color: silver;
+	margin-left: 0%;	
+}
+
+
+
+.walls
+{
+	width: 10px;
+    height: 251px;
+    background-color: silver;
+    margin-left: 32%;
+    position: absolute;
+    margin-top: 335px;
+}
+
+
+.moveUp
+{
+	display: block;
+    width: 67px;
+	margin-top: 7%;
+    margin-left: 32%;
+	color: black;
+	border: none;
+	background-color: transparent;
+    font-size: 20px;
+
+}
+
+.moveDown
+{
+	display: block;
+	width: 67px;
+	margin-top: 7%;
+    margin-left: 32%;
+	color: black;
+	border: none;
+	background-color: transparent;
+	font-size: 20px;
+}
+
+
+.moveLeft
+{
+	display: inline-block;
+    width: 67px;
+	margin-left: 12%;
+	color: black;
+	border: none;
+	background-color: transparent;
+    font-size: 20px;
+}
+
+.moveRight
+{
+	display: inline-block;
+    width: 67px;
+	margin-top: 4%;
+	color: black;
+	border: none;
+	background-color: transparent;
+    font-size: 20px;
+}
